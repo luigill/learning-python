@@ -62,7 +62,7 @@ python -m venv nome_do_ambiente
 source nome_do_ambiente/bin/activate # Unix
 ```
 
-- Caso tenha um erro no Windos:
+- Caso tenha um erro no Windows:
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
 ```

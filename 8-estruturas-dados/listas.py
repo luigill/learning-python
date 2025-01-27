@@ -21,3 +21,25 @@ print(minha_lista_itens[1:2])
 # start:stop:step
 # vai de 2 em 2
 print(minha_lista_itens[::2])
+
+# invertendo uma lista
+print(minha_lista_itens[::-1])
+
+# Métodos das listas
+notas = []
+notas.append(7.2) # Adiciona elemento no final da lista
+notas.extend([10.0,6.7,8.0]) # Adiciona os elementos de uma lista em outra
+notas = notas + [9.9,5.7] # Soma de listas resulta da união 
+
+notas.remove(10) # Remove a primeira ocorrência da lista
+
+soma = sum(notas) # soma todos os valores na lista
+
+
+# laços de repetição em listas 
+for i in notas:
+    print(i)
+
+# lista de lista
+dados = [1,2,3,[10,20],[100,200]]
+print(dados[4][1])

@@ -43,3 +43,7 @@ for i in notas:
 # lista de lista
 dados = [1,2,3,[10,20],[100,200]]
 print(dados[4][1])
+
+# atribuindo uma lista a diferentes variáveis
+dados = ['lui', 'gill']
+nome,sobrenome = dados

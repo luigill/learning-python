@@ -1,4 +1,4 @@
-# pip install requests
+# pip install requests pandas
 
 import requests
 import pandas as pd
